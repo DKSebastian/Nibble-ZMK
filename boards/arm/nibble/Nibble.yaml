@@ -1,5 +1,5 @@
-identifier: zaphod
-name: Zaphod
+identifier: Nibble
+name: Nibble
 type: keyboard
 arch: arm
 toolchain:
