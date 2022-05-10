@@ -25,11 +25,11 @@
 			sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
 			bindings = <
-            &kp ESC   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8  &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp HOME
-&kp C_MUTE  &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I   &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH &kp DEL
-&kp F1      &kp CLCK  &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K   &kp L     &kp SEMI  &kp SQT             &kp RET  &kp PG_UP
-&kp F2      &kp LSHFT &trans    &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M   &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
-&kp F3      &kp LCTRL &kp LGUI  &kp LALT                      &kp SPACE                     &kp RALT  &mo 1   &kp RCTRL &kp LEFT            &kp DOWN &kp RIGHT
+             &kp ESC   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8  &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp HOME
+&kp C_MUTE   &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I   &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH &kp DEL
+&kp F1       &kp CLCK  &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K   &kp L     &kp SEMI  &kp SQT             &kp RET  &kp PG_UP
+&kp K_COPY   &kp LSHFT &trans    &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M   &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
+&kp K_PASTE  &kp LCTRL &kp LGUI  &kp LALT                      &kp SPACE                     &kp RALT  &mo 1   &kp RCTRL &kp LEFT            &kp DOWN &kp RIGHT
 			>;
 		};
 		function_layer {
@@ -38,11 +38,11 @@
 			sensor-bindings = <&inc_dec_rgb_ug RGB_HUD RGB_HUI>;
 
 		 	bindings = <
-                  &kp TILDE  &kp F1        &kp F2     &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8  &kp F9     &kp F10   &kp F11   &kp F12     &bootloader  &kp END
-&kp C_MUTE        &kp TAB    &kp Q         &kp W      &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I   &kp O      &kp P     &kp LBKT  &kp RBKT    &kp BSLH     &bt BT_CLR 
-&rgb_ug RGB_TOG   &kp CLCK   &kp A         &kp S      &kp D     &kp F     &kp G     &kp H     &kp J     &kp K   &kp L      &kp SEMI  &kp SQT               &kp RET      &bt BT_PRV 
-&rgb_ug RGB_EFF   &kp LSHFT  &trans        &kp Z      &kp X     &kp C     &kp V     &kp B     &kp N     &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT   &kp UP       &bt BT_NXT
-&rgb_ug RGB_COLOR_HSB(195, 100, 100)  &kp LCTRL  &kp LGUI   &kp LALT                  &kp SPACE                 &kp RALT   &kp RGUI  &kp LEFT  &kp C_PREV  &kp C_PP     &kp C_NEXT
+                  &kp TILDE        &kp F1      &kp F2     &kp F3    &kp F4   &kp F5    &kp F6    &kp F7   &kp F8  &kp F9     &kp F10   &kp F11   &kp F12     &bootloader  &kp END
+&kp C_MUTE        &rgb_ug RGB_EFF  &kp Q       &kp W      &kp E     &kp R    &kp T     &kp Y     &kp U    &kp I   &kp O      &kp P     &kp LBKT  &kp RBKT    &kp BSLH     &bt BT_CLR 
+&rgb_ug RGB_HUI   &rgb_ug RGB_TOG  &kp A       &kp S      &kp D     &kp F    &kp G     &kp H     &kp J    &kp K   &kp L      &kp SEMI  &kp SQT               &kp RET      &bt BT_PRV 
+&rgb_ug RGB_HUD   &kp LSHFT        &trans      &kp Z      &kp X     &kp C    &kp V     &kp B     &kp N    &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT   &kp UP       &bt BT_NXT
+&rgb_ug RGB_COLOR_HSB(195, 100, 100)  &kp LCTRL  &kp LGUI   &kp LALT                  &kp SPACE                   &kp RALT   &kp RGUI  &kp LEFT  &kp C_PREV  &kp C_PP     &kp C_NEXT
 			>;
 		};
 	};
